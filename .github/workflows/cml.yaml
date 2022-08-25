@@ -1,0 +1,20 @@
+name: ccpp
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    # optionally use a convenient Ubuntu LTS + DVC + CML image
+    container: docker://ghcr.io/iterative/cml:0-dvc2-base1
+    steps:
+      - uses: actions/checkout@v2
+      - name: cml_run
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+    
+          # Your ML workflow goes here
+          pip install -r requirements.txt
+          python untitled0.py
+          
+          echo "MODEL METRICS"
+          cat metrics.txt
