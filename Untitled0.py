@@ -7,7 +7,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/Telliliskander/tug/blob/main/Untitled0.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/Telliliskander/tug/blob/main/Untitled0.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "for cc in ccs:  \n",
         "\n",
         "    print(cc)\n",
-        "    dataset = f'/content/{cc}.csv'  \n",
+        "    dataset = f'{cc}.csv'  \n",
         "    df = pd.read_csv(dataset, names=['time', 'low', 'high', 'open', 'close', 'volume'])  \n",
         "\n",
         "    df.rename(columns={\"close\": f\"{cc}_close\", \"volume\": f\"{cc}_volume\"}, inplace=True)\n",
@@ -204,7 +204,7 @@
       "collapsed_sections": [],
       "name": "Untitled0.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyNUrfrrFZmPuU9EcQ5gAkTG",
+      "authorship_tag": "ABX9TyNHJqZCRh2q4/5yXqu3P4fb",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -213,7 +213,9 @@
     },
     "language_info": {
       "name": "python"
-    }
+    },
+    "accelerator": "GPU",
+    "gpuClass": "standard"
   },
   "nbformat": 4,
   "nbformat_minor": 0
