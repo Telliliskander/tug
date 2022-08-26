@@ -12,10 +12,10 @@
     },
     {
       "cell_type": "code",
-      "execution_count": None,
+      "execution_count": null,
       "metadata": {
         "colab": {
-          "background_save": True
+          "background_save": true
         },
         "id": "i_sJU2f9Xf0G"
       },
@@ -205,7 +205,7 @@
       "name": "Untitled0.ipynb",
       "provenance": [],
       "authorship_tag": "ABX9TyNHJqZCRh2q4/5yXqu3P4fb",
-      "include_colab_link": True
+      "include_colab_link": true
     },
     "kernelspec": {
       "display_name": "Python 3",
