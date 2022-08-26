@@ -205,7 +205,7 @@
       "name": "Untitled0.ipynb",
       "provenance": [],
       "authorship_tag": "ABX9TyNHJqZCRh2q4/5yXqu3P4fb",
-      "include_colab_link": true
+      "include_colab_link": True
     },
     "kernelspec": {
       "display_name": "Python 3",
